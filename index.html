@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Loci: un juego 3D sobre el palacio de la memoria / a 3D memory palace game." />
+    <meta name="theme-color" content="#14110e" />
+    <title>Loci · El Palacio de la Memoria</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+
+    <div id="hud" hidden>
+      <div id="hud-top">
+        <span id="phase"></span>
+        <span id="timer"></span>
+        <span id="progress"></span>
+      </div>
+      <div id="room-toast"></div>
+      <ol id="list"></ol>
+      <div id="crosshair"></div>
+      <div id="prompt"></div>
+      <div id="hint"></div>
+      <div id="vivid"></div>
+    </div>
+
+    <div id="overlay" hidden></div>
+
+    <div id="loading">
+      <h1>Loci</h1>
+      <p id="loading-text"></p>
+      <div class="track"><div id="bar"></div></div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1327 @@
+{
+ "spawn": {
+  "pos": [
+   0,
+   0,
+   -2.0
+  ],
+  "yaw": 0.0
+ },
+ "rooms": [
+  {
+   "id": "vestibule",
+   "min": [
+    -6,
+    -12
+   ],
+   "max": [
+    6,
+    0
+   ],
+   "outdoor": false
+  },
+  {
+   "id": "library",
+   "min": [
+    6,
+    -12
+   ],
+   "max": [
+    18,
+    0
+   ],
+   "outdoor": false
+  },
+  {
+   "id": "courtyard",
+   "min": [
+    6,
+    -24
+   ],
+   "max": [
+    18,
+    -12
+   ],
+   "outdoor": true
+  },
+  {
+   "id": "gallery",
+   "min": [
+    -6,
+    -24
+   ],
+   "max": [
+    6,
+    -12
+   ],
+   "outdoor": false
+  },
+  {
+   "id": "hall",
+   "min": [
+    -6,
+    -38
+   ],
+   "max": [
+    6,
+    -24
+   ],
+   "outdoor": false
+  }
+ ],
+ "loci": [
+  {
+   "id": 1,
+   "room": "vestibule",
+   "place": "pedestal",
+   "pos": [
+    -4.4,
+    1.1,
+    -4.5
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 2,
+   "room": "vestibule",
+   "place": "round_table",
+   "pos": [
+    0,
+    0.86,
+    -7.4
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 3,
+   "room": "vestibule",
+   "place": "console",
+   "pos": [
+    5.5,
+    0.92,
+    -9.6
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 4,
+   "room": "library",
+   "place": "reading_table",
+   "pos": [
+    12.0,
+    0.78,
+    -5.0
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 5,
+   "room": "library",
+   "place": "lectern",
+   "pos": [
+    16.7,
+    1.18,
+    -8.6
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 6,
+   "room": "library",
+   "place": "side_table",
+   "pos": [
+    15.4,
+    0.72,
+    -9.9
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 7,
+   "room": "courtyard",
+   "place": "fountain",
+   "pos": [
+    12.0,
+    1.55,
+    -18.0
+   ],
+   "radius": 0.8
+  },
+  {
+   "id": 8,
+   "room": "courtyard",
+   "place": "bench",
+   "pos": [
+    16.6,
+    0.48,
+    -15.2
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 9,
+   "room": "courtyard",
+   "place": "sundial",
+   "pos": [
+    8.8,
+    1.02,
+    -21.32
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 10,
+   "room": "gallery",
+   "place": "pedestal_south",
+   "pos": [
+    3.6,
+    1.05,
+    -13.6
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 11,
+   "room": "gallery",
+   "place": "ottoman",
+   "pos": [
+    0,
+    0.5,
+    -18.0
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 12,
+   "room": "gallery",
+   "place": "pedestal_north",
+   "pos": [
+    -4.5,
+    1.05,
+    -22.5
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 13,
+   "room": "hall",
+   "place": "throne",
+   "pos": [
+    0.0,
+    0.92,
+    -36.55
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 14,
+   "room": "hall",
+   "place": "banquet_table",
+   "pos": [
+    -2.5,
+    0.78,
+    -28.6
+   ],
+   "radius": 0.6
+  },
+  {
+   "id": 15,
+   "room": "hall",
+   "place": "altar",
+   "pos": [
+    2.6,
+    1.0,
+    -31.35
+   ],
+   "radius": 0.6
+  }
+ ],
+ "lights": [
+  {
+   "pos": [
+    0,
+    4.0,
+    -6.0
+   ],
+   "color": "#ffb768",
+   "intensity": 55,
+   "distance": 16,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    -5.43,
+    3.05,
+    -6.0
+   ],
+   "color": "#ffad5c",
+   "intensity": 5,
+   "distance": 7.0,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    -5.43,
+    3.05,
+    -11.0
+   ],
+   "color": "#ffad5c",
+   "intensity": 5,
+   "distance": 7.0,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    5.43,
+    3.05,
+    -2.6
+   ],
+   "color": "#ffad5c",
+   "intensity": 5,
+   "distance": 7.0,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    5.43,
+    2.95,
+    -9.6
+   ],
+   "color": "#ffad5c",
+   "intensity": 5,
+   "distance": 7.0,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    10.6,
+    1.25,
+    -5.0
+   ],
+   "color": "#ffb060",
+   "intensity": 2.5,
+   "distance": 4.0,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    13.4,
+    1.25,
+    -5.0
+   ],
+   "color": "#ffb060",
+   "intensity": 2.5,
+   "distance": 4.0,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    10.0,
+    3.8,
+    -5.0
+   ],
+   "color": "#ffb768",
+   "intensity": 22,
+   "distance": 10,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    14.0,
+    3.8,
+    -5.0
+   ],
+   "color": "#ffb768",
+   "intensity": 22,
+   "distance": 10,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    17.3,
+    1.9,
+    -10.2
+   ],
+   "color": "#ffad5c",
+   "intensity": 3,
+   "distance": 5,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    6.57,
+    3.15,
+    -13.4
+   ],
+   "color": "#ffad5c",
+   "intensity": 3,
+   "distance": 7.0,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    17.43,
+    3.15,
+    -18.0
+   ],
+   "color": "#ffad5c",
+   "intensity": 3,
+   "distance": 7.0,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    0,
+    3.9,
+    -15.0
+   ],
+   "color": "#ffb768",
+   "intensity": 26,
+   "distance": 11,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    0,
+    3.9,
+    -21.0
+   ],
+   "color": "#ffb768",
+   "intensity": 26,
+   "distance": 11,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    -2.4,
+    1.8,
+    -35.35
+   ],
+   "color": "#ff8a3a",
+   "intensity": 14,
+   "distance": 9,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    2.4,
+    1.8,
+    -35.35
+   ],
+   "color": "#ff8a3a",
+   "intensity": 14,
+   "distance": 9,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    2.6,
+    1.8,
+    -31.7
+   ],
+   "color": "#ffb060",
+   "intensity": 3,
+   "distance": 5,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    -5.43,
+    2.95,
+    -29.1
+   ],
+   "color": "#ffad5c",
+   "intensity": 5,
+   "distance": 7.0,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    5.43,
+    2.95,
+    -29.1
+   ],
+   "color": "#ffad5c",
+   "intensity": 5,
+   "distance": 7.0,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    -5.43,
+    2.95,
+    -33.7
+   ],
+   "color": "#ffad5c",
+   "intensity": 5,
+   "distance": 7.0,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    5.43,
+    2.95,
+    -33.7
+   ],
+   "color": "#ffad5c",
+   "intensity": 5,
+   "distance": 7.0,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    0,
+    5.3,
+    -28.0
+   ],
+   "color": "#ffb768",
+   "intensity": 60,
+   "distance": 16,
+   "flicker": true,
+   "shadow": false
+  },
+  {
+   "pos": [
+    0,
+    5.3,
+    -33.0
+   ],
+   "color": "#ffb768",
+   "intensity": 60,
+   "distance": 16,
+   "flicker": true,
+   "shadow": false
+  }
+ ],
+ "colliders": [
+  {
+   "type": "rect",
+   "min": [
+    -6.25,
+    -0.25
+   ],
+   "max": [
+    6.25,
+    0.25
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    5.75,
+    -0.25
+   ],
+   "max": [
+    18.25,
+    0.25
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    -6.25,
+    -12.25
+   ],
+   "max": [
+    -5.75,
+    0.25
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    5.75,
+    -4.5
+   ],
+   "max": [
+    6.25,
+    0.25
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    5.75,
+    -12.25
+   ],
+   "max": [
+    6.25,
+    -7.5
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    17.75,
+    -12.25
+   ],
+   "max": [
+    18.25,
+    0.25
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    -6.25,
+    -12.25
+   ],
+   "max": [
+    6.25,
+    -11.75
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    5.75,
+    -12.25
+   ],
+   "max": [
+    10.5,
+    -11.75
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    13.5,
+    -12.25
+   ],
+   "max": [
+    18.25,
+    -11.75
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    -6.25,
+    -24.25
+   ],
+   "max": [
+    -5.75,
+    -11.75
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    5.75,
+    -16.5
+   ],
+   "max": [
+    6.25,
+    -11.75
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    5.75,
+    -24.25
+   ],
+   "max": [
+    6.25,
+    -19.5
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    17.75,
+    -24.25
+   ],
+   "max": [
+    18.25,
+    -11.75
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    -6.25,
+    -24.25
+   ],
+   "max": [
+    -1.5,
+    -23.75
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    1.5,
+    -24.25
+   ],
+   "max": [
+    6.25,
+    -23.75
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    5.75,
+    -24.25
+   ],
+   "max": [
+    18.25,
+    -23.75
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    -6.25,
+    -38.25
+   ],
+   "max": [
+    -5.75,
+    -23.75
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    5.75,
+    -38.25
+   ],
+   "max": [
+    6.25,
+    -23.75
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    -6.25,
+    -38.25
+   ],
+   "max": [
+    6.25,
+    -37.75
+   ]
+  },
+  {
+   "type": "circle",
+   "c": [
+    -2.6,
+    -3.0
+   ],
+   "r": 0.5
+  },
+  {
+   "type": "circle",
+   "c": [
+    -2.6,
+    -6.0
+   ],
+   "r": 0.5
+  },
+  {
+   "type": "circle",
+   "c": [
+    -2.6,
+    -9.0
+   ],
+   "r": 0.5
+  },
+  {
+   "type": "circle",
+   "c": [
+    2.6,
+    -3.0
+   ],
+   "r": 0.5
+  },
+  {
+   "type": "circle",
+   "c": [
+    2.6,
+    -6.0
+   ],
+   "r": 0.5
+  },
+  {
+   "type": "circle",
+   "c": [
+    2.6,
+    -9.0
+   ],
+   "r": 0.5
+  },
+  {
+   "type": "rect",
+   "min": [
+    -1.5,
+    -0.35
+   ],
+   "max": [
+    1.5,
+    -0.0
+   ]
+  },
+  {
+   "type": "circle",
+   "c": [
+    -4.6,
+    -1.3
+   ],
+   "r": 0.36
+  },
+  {
+   "type": "circle",
+   "c": [
+    4.6,
+    -1.3
+   ],
+   "r": 0.36
+  },
+  {
+   "type": "circle",
+   "c": [
+    -4.9,
+    -11.0
+   ],
+   "r": 0.324
+  },
+  {
+   "type": "circle",
+   "c": [
+    -4.4,
+    -4.5
+   ],
+   "r": 0.38
+  },
+  {
+   "type": "circle",
+   "c": [
+    0,
+    -7.4
+   ],
+   "r": 0.6
+  },
+  {
+   "type": "rect",
+   "min": [
+    5.3,
+    -10.4
+   ],
+   "max": [
+    5.75,
+    -8.8
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    6.3,
+    -0.67
+   ],
+   "max": [
+    17.7,
+    -0.25
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    6.35,
+    -11.75
+   ],
+   "max": [
+    10.25,
+    -11.33
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    13.75,
+    -11.75
+   ],
+   "max": [
+    17.65,
+    -11.33
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    6.25,
+    -4.1
+   ],
+   "max": [
+    6.67,
+    -0.5
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    6.25,
+    -11.5
+   ],
+   "max": [
+    6.67,
+    -7.9
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    10.4,
+    -5.65
+   ],
+   "max": [
+    13.6,
+    -4.35
+   ]
+  },
+  {
+   "type": "circle",
+   "c": [
+    10.9,
+    -3.9
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "circle",
+   "c": [
+    10.9,
+    -6.1
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "circle",
+   "c": [
+    12.0,
+    -3.9
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "circle",
+   "c": [
+    12.0,
+    -6.1
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "circle",
+   "c": [
+    13.1,
+    -3.9
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "circle",
+   "c": [
+    13.1,
+    -6.1
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "circle",
+   "c": [
+    16.7,
+    -8.6
+   ],
+   "r": 0.35
+  },
+  {
+   "type": "circle",
+   "c": [
+    15.4,
+    -9.9
+   ],
+   "r": 0.42
+  },
+  {
+   "type": "circle",
+   "c": [
+    16.3,
+    -9.2
+   ],
+   "r": 0.3
+  },
+  {
+   "type": "circle",
+   "c": [
+    9.4,
+    -10.9
+   ],
+   "r": 0.324
+  },
+  {
+   "type": "circle",
+   "c": [
+    12.0,
+    -18.0
+   ],
+   "r": 2.05
+  },
+  {
+   "type": "rect",
+   "min": [
+    16.35,
+    -16.1
+   ],
+   "max": [
+    16.85,
+    -14.3
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    7.25,
+    -15.9
+   ],
+   "max": [
+    7.75,
+    -14.1
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    16.35,
+    -21.9
+   ],
+   "max": [
+    16.85,
+    -20.1
+   ]
+  },
+  {
+   "type": "circle",
+   "c": [
+    8.8,
+    -21.4
+   ],
+   "r": 0.4
+  },
+  {
+   "type": "circle",
+   "c": [
+    8.4,
+    -14.4
+   ],
+   "r": 0.4
+  },
+  {
+   "type": "circle",
+   "c": [
+    15.6,
+    -21.8
+   ],
+   "r": 0.4
+  },
+  {
+   "type": "rect",
+   "min": [
+    6.25,
+    -12.85
+   ],
+   "max": [
+    10.4,
+    -12.25
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    6.25,
+    -16.2
+   ],
+   "max": [
+    6.85,
+    -12.85
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    13.6,
+    -12.85
+   ],
+   "max": [
+    17.75,
+    -12.25
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    17.15,
+    -14.0
+   ],
+   "max": [
+    17.75,
+    -12.85
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    6.25,
+    -23.75
+   ],
+   "max": [
+    10.4,
+    -23.15
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    6.25,
+    -23.15
+   ],
+   "max": [
+    6.85,
+    -19.8
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    13.6,
+    -23.75
+   ],
+   "max": [
+    17.75,
+    -23.15
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    17.15,
+    -23.15
+   ],
+   "max": [
+    17.75,
+    -22.6
+   ]
+  },
+  {
+   "type": "circle",
+   "c": [
+    10.4,
+    -16.4
+   ],
+   "r": 0.288
+  },
+  {
+   "type": "circle",
+   "c": [
+    13.6,
+    -16.4
+   ],
+   "r": 0.288
+  },
+  {
+   "type": "circle",
+   "c": [
+    10.4,
+    -19.6
+   ],
+   "r": 0.288
+  },
+  {
+   "type": "circle",
+   "c": [
+    13.6,
+    -19.6
+   ],
+   "r": 0.288
+  },
+  {
+   "type": "circle",
+   "c": [
+    3.6,
+    -13.6
+   ],
+   "r": 0.38
+  },
+  {
+   "type": "rect",
+   "min": [
+    -1.3,
+    -18.4
+   ],
+   "max": [
+    1.3,
+    -17.6
+   ]
+  },
+  {
+   "type": "circle",
+   "c": [
+    -4.5,
+    -22.5
+   ],
+   "r": 0.38
+  },
+  {
+   "type": "circle",
+   "c": [
+    -4.8,
+    -13.2
+   ],
+   "r": 0.4
+  },
+  {
+   "type": "circle",
+   "c": [
+    4.6,
+    -22.9
+   ],
+   "r": 0.4
+  },
+  {
+   "type": "circle",
+   "c": [
+    -3.6,
+    -27.0
+   ],
+   "r": 0.5
+  },
+  {
+   "type": "circle",
+   "c": [
+    -3.6,
+    -30.2
+   ],
+   "r": 0.5
+  },
+  {
+   "type": "circle",
+   "c": [
+    -3.6,
+    -33.4
+   ],
+   "r": 0.5
+  },
+  {
+   "type": "circle",
+   "c": [
+    3.6,
+    -27.0
+   ],
+   "r": 0.5
+  },
+  {
+   "type": "circle",
+   "c": [
+    3.6,
+    -30.2
+   ],
+   "r": 0.5
+  },
+  {
+   "type": "circle",
+   "c": [
+    3.6,
+    -33.4
+   ],
+   "r": 0.5
+  },
+  {
+   "type": "rect",
+   "min": [
+    -0.7,
+    -37.3
+   ],
+   "max": [
+    0.7,
+    -36.05
+   ]
+  },
+  {
+   "type": "circle",
+   "c": [
+    -2.4,
+    -35.35
+   ],
+   "r": 0.45
+  },
+  {
+   "type": "circle",
+   "c": [
+    2.4,
+    -35.35
+   ],
+   "r": 0.45
+  },
+  {
+   "type": "rect",
+   "min": [
+    -3.05,
+    -31.9
+   ],
+   "max": [
+    -1.95,
+    -27.7
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    -1.85,
+    -31.6
+   ],
+   "max": [
+    -1.35,
+    -28.0
+   ]
+  },
+  {
+   "type": "rect",
+   "min": [
+    2.0,
+    -31.85
+   ],
+   "max": [
+    3.2,
+    -30.95
+   ]
+  }
+ ],
+ "sun": {
+  "dir": [
+   -0.45,
+   0.66,
+   0.6
+  ]
+ }
+}

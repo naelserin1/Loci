@@ -1,0 +1,23 @@
+{
+  "name": "loci",
+  "version": "0.1.0",
+  "description": "Loci: a 3D memory palace game (method of loci) built with Blender and three.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "assets:palace": "python blender/build_palace.py",
+    "assets:items": "python blender/build_items.py",
+    "assets:optimize": "node scripts/optimize-models.mjs",
+    "assets": "npm run assets:palace && npm run assets:items && npm run assets:optimize"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.5.1",
+    "vite": "^6.4.5"
+  }
+}
